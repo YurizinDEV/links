@@ -1,0 +1,26 @@
+{
+    "usuarios": [
+        {
+            "id": "1",
+            "foto": "/imagens/usuario1.jpg",
+            "nome": "Yuri Zetoles",
+            "fundo": "/imagens/fundo1.jpg",
+            "corLink": "#3498db",
+            "corLinkHover": "#2980b9",
+            "corTextoLink": "#2c3e50",
+            "borderRadius": "10px",
+            "links": [
+                {
+                    "icone": "/icones/linkedin.png",
+                    "texto": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/yuri-zetoles/"
+                },
+                {
+                    "icone": "/icones/github.png",
+                    "texto": "GitHub",
+                    "url": "hitps://github.com/yurizetoles"
+                }
+            ]
+        }
+    ]
+}
