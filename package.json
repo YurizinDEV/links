@@ -2,13 +2,15 @@
   "name": "links",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
-  "scripts": {
+  "type": "module",  "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "json-server --watch dados.json",
+    "dev-full": "concurrently \"npm run dev\" \"npm run server\""
   },
   "devDependencies": {
+    "json-server": "^1.0.0-beta.3",
     "typescript": "~5.8.3",
     "vite": "^6.3.5"
   }
