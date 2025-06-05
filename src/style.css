@@ -2,80 +2,76 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
 }
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh;
-  background: url('background.jpg') center/cover no-repeat;
+  max-width: 600px;
+  width: 90%;
+  padding: 40px 20px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
+
+
 
 .profile-image {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  margin-top: 48px;
   object-fit: cover;
+  margin-bottom: 16px;
   border: 4px solid #fff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .profile-name {
-  margin: 24px 0 32px 0;
-  font-size: 2rem;
-  font-weight: 500;
-  color: #222;
-  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  color: #333;
 }
 
 .links-container {
-  width: 90%;
-  max-width: 400px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  width: 100%;
+  max-width: 500px;
+  gap: 12px;
 }
 
 .link {
   display: flex;
   align-items: center;
-  background: #7db6f7;
-  color: #fff;
-  padding: 14px 20px;
-  border-radius: 8px;
+  justify-content: flex-start;
   text-decoration: none;
-  font-size: 1.1rem;
-  gap: 12px;
-}
-
-.link-primary {
-  background: #4a90e2;
-}
-
-.date-container {
-  margin: 24px 0 0 0;
-}
-
-.date-badge {
-  background: #4a90e2;
-  color: #fff;
-  padding: 4px 10px;
-  border-radius: 6px;
-  font-size: 0.95rem;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .qrcode-container {
-  margin: 32px 0 0 0;
+  margin-top: 30px;
 }
 
 .qrcode {
-  width: 160px;
-  height: 160px;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
 }
