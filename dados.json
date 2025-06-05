@@ -2,23 +2,45 @@
     "usuarios": [
         {
             "id": "1",
-            "foto": "/imagens/usuario1.jpg",
+            "foto": "/public/assets/images/users/image1.png",
             "nome": "Yuri Zetoles",
-            "fundo": "/imagens/fundo1.jpg",
+            "fundo": "/public/assets/images/background/fundo1.jpg",
             "corLink": "#3498db",
             "corLinkHover": "#2980b9",
             "corTextoLink": "#2c3e50",
             "borderRadius": "10px",
             "links": [
                 {
-                    "icone": "/icones/linkedin.png",
+                    "icone": "/public/assets/images/icons/linkedin.png",
                     "texto": "LinkedIn",
                     "url": "https://www.linkedin.com/in/yuri-zetoles/"
                 },
                 {
-                    "icone": "/icones/github.png",
+                    "icone": "/public/assets/images/icons/github.png",
                     "texto": "GitHub",
-                    "url": "hitps://github.com/yurizetoles"
+                    "url": "https://github.com/yurizetoles"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "foto": "/public/assets/images/users/image2.png",
+            "nome": "Ana Silva",
+            "fundo": "/public/assets/images/background/fundo2.jpg",
+            "corLink": "#e74c3c",
+            "corLinkHover": "#c0392b",
+            "corTextoLink": "#2c3e50",
+            "borderRadius": "10px",
+            "links": [
+                {
+                    "icone": "/public/assets/images/icons/twitter.png",
+                    "texto": "Twitter",
+                    "url": "https://twitter.com/ana_silva"
+                },
+                {
+                    "icone": "/public/assets/images/icons/instagram.png",
+                    "texto": "Instagram",
+                    "url": "https://instagram.com/ana_silva"
                 }
             ]
         }
