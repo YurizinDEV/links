@@ -70,6 +70,12 @@ function aplicarEstiloPersonalizado(usuario: Usuario): void {
     }
 
     const css = `
+    body {
+        background: url('${usuario.fundo}') no-repeat center center fixed;
+        background-size: cover;
+        background: ${usuario.fundo};
+    }
+
         .link {
             background-color: ${usuario.corLink};
             color: ${usuario.corTextoLink};
@@ -98,35 +104,35 @@ function aplicarEstiloPersonalizado(usuario: Usuario): void {
 }
 
 async function inicializarPagina() {
-        const usuario = await buscarDados(id);
+    const usuario = await buscarDados(id);
 
-        const nome = document.getElementById('nome');
-        if (nome) nome.textContent = usuario.nome;
+    const nome = document.getElementById('nome');
+    if (nome) nome.textContent = usuario.nome;
 
-        const imagem = document.getElementById('imagem') as HTMLImageElement;
-        if (imagem) {
-            imagem.src = usuario.foto;
-            imagem.alt = `Foto de perfil de ${usuario.nome}`;
-        }
+    const imagem = document.getElementById('imagem') as HTMLImageElement;
+    if (imagem) {
+        imagem.src = usuario.foto;
+        imagem.alt = `Foto de perfil de ${usuario.nome}`;
+    }
 
-        const container = document.getElementById('user-container');
-        if (container && usuario.fundo) {
-            container.style.backgroundImage = `url(${usuario.fundo})`;
-        }
+    const body = document.getElementById('body');
+    if (body && usuario.fundo) {
+        body.style.backgroundImage = `url(${usuario.fundo})`;
+    }
 
-        const linksContainer = document.getElementById('links');
-        if (linksContainer) {
-            renderizarLinks(usuario, linksContainer);
-        }
+    const linksContainer = document.getElementById('links');
+    if (linksContainer) {
+        renderizarLinks(usuario, linksContainer);
+    }
 
-        const qrcodeElement = document.getElementById('qrcode') as HTMLImageElement;
-        if (qrcodeElement) {
-            const currentUrl = window.location.href;
-            qrcodeElement.src = `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(currentUrl)}&size=200x200`;
-            qrcodeElement.alt = 'QR Code para esta página';
-        }
+    const qrcodeElement = document.getElementById('qrcode') as HTMLImageElement;
+    if (qrcodeElement) {
+        const currentUrl = window.location.href;
+        qrcodeElement.src = `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(currentUrl)}&size=200x200`;
+        qrcodeElement.alt = 'QR Code para esta página';
+    }
 
-        aplicarEstiloPersonalizado(usuario);
+    aplicarEstiloPersonalizado(usuario);
 }
 
 inicializarPagina();
