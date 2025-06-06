@@ -2,47 +2,188 @@
     "usuarios": [
         {
             "id": "1",
-            "foto": "/public/assets/images/users/image1.png",
-            "nome": "Yuri Zetoles",
-            "fundo": "/public/assets/images/background/fundo1.jpg",
-            "corLink": "#3498db",
-            "corLinkHover": "#2980b9",
-            "corTextoLink": "#2c3e50",
-            "borderRadius": "10px",
+            "foto": "./public/assets/images/people/eu.jpg",
+            "nome": "Yuri Ribeiro Zetoles",
+            "fundo": "#f5f6fa",
+            "corLink": "#e3e8ee",
+            "corLinkHover": "#bfc9d9",
+            "corIcone": "#fff",
+            "corTextoLink": "#000",
+            "borderRadius": "8px",
             "links": [
                 {
-                    "icone": "/public/assets/images/icons/linkedin.png",
+                    "icone": "./public/assets/images/icons/linkedin.png",
                     "texto": "LinkedIn",
-                    "url": "https://www.linkedin.com/in/yuri-zetoles/"
+                    "url": "www.linkedin.com/in/yuri-ribeiro-zetoles/"
                 },
                 {
-                    "icone": "/public/assets/images/icons/github.png",
+                    "icone": "./public/assets/images/icons/github.png",
                     "texto": "GitHub",
-                    "url": "https://github.com/yurizetoles"
+                    "url": "https://github.com/YurizinDEV"
+                },
+                {
+                    "icone": "./public/assets/images/icons/mail.png",
+                    "texto": "E-mail",
+                    "url": "mailto:yurizetoles0123@gmail.com"
                 }
-            ]
+            ],
+            "qrcode": "./public/assets/images/qrcode/image 6.png"
         },
         {
             "id": "2",
-            "foto": "/public/assets/images/users/image2.png",
-            "nome": "Ana Silva",
-            "fundo": "/public/assets/images/background/fundo2.jpg",
-            "corLink": "#e74c3c",
-            "corLinkHover": "#c0392b",
-            "corTextoLink": "#2c3e50",
-            "borderRadius": "10px",
+            "foto": "./public/assets/images/people/46f18447b2b86db1a00aaa19ea455b85760f3e06.png",
+            "nome": "Amanda Oliveira",
+            "fundo": "linear-gradient(135deg, #e0f7fa 0%, #80deea 100%)",
+            "corLink": "#80deea",
+            "corLinkHover": "#26c6da",
+            "corIcone": "#0097a7",
+            "corTextoLink": "#006064",
+            "borderRadius": "15px",
             "links": [
                 {
-                    "icone": "/public/assets/images/icons/twitter.png",
-                    "texto": "Twitter",
-                    "url": "https://twitter.com/ana_silva"
+                    "icone": "./public/assets/images/icons/linkedin.png",
+                    "texto": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/amandaoliveira/"
                 },
                 {
-                    "icone": "/public/assets/images/icons/instagram.png",
+                    "icone": "./public/assets/images/icons/github.png",
+                    "texto": "GitHub",
+                    "url": "https://github.com/amandaoliveira"
+                },
+                {
+                    "icone": "./public/assets/images/icons/mail.png",
+                    "texto": "E-mail",
+                    "url": "mailto:amanda@email.com"
+                },
+                {
+                    "icone": "./public/assets/images/icons/instagram.png",
                     "texto": "Instagram",
-                    "url": "https://instagram.com/ana_silva"
+                    "url": "https://instagram.com/amandaoliveira"
+                },
+                {
+                    "icone": "./public/assets/images/icons/youtube.png",
+                    "texto": "YouTube",
+                    "url": "https://youtube.com/amandaoliveira"
                 }
-            ]
+            ],
+            "qrcode": "./public/assets/images/qrcode/image 6.png"
+        },
+        {
+            "id": "3",
+            "foto": "./public/assets/images/people/b09410ad020fdaacf16c7a6839d037e8101ebb25.png",
+            "nome": "Roberto Almeida",
+            "fundo": "url(./public/assets/images/background/pexels-pixabay-531767.jpg)",
+            "corLink": "#a5d6a7",
+            "corLinkHover": "#66bb6a",
+            "corIcone": "#2e7d32",
+            "corTextoLink": "#1b5e20",
+            "borderRadius": "8px",
+            "links": [
+                {
+                    "icone": "./public/assets/images/icons/linkedin.png",
+                    "texto": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/robertoalmeida/"
+                },
+                {
+                    "icone": "./public/assets/images/icons/github.png",
+                    "texto": "GitHub",
+                    "url": "https://github.com/robertoalmeida"
+                },
+                {
+                    "icone": "./public/assets/images/icons/mail.png",
+                    "texto": "E-mail",
+                    "url": "mailto:roberto@email.com"
+                },
+                {
+                    "icone": "./public/assets/images/icons/twitter.png",
+                    "texto": "Twitter",
+                    "url": "https://twitter.com/robertoalmeida"
+                },
+                {
+                    "icone": "./public/assets/images/icons/message-square-text.png",
+                    "texto": "WhatsApp",
+                    "url": "https://wa.me/5599988887777"
+                }
+            ],
+            "qrcode": "./public/assets/images/qrcode/image 6.png"
+        },
+        {
+            "id": "4",
+            "foto": "./public/assets/images/people/82b007f850f00d232befc01d9f1fa5b529e8f10a.png",
+            "nome": "Fernanda Martins",
+            "fundo": "#fff8e1",
+            "corLink": "#ffe082",
+            "corLinkHover": "#ffc107",
+            "corIcone": "#ff8f00",
+            "corTextoLink": "#e65100",
+            "borderRadius": "25px",
+            "links": [
+                {
+                    "icone": "./public/assets/images/icons/linkedin.png",
+                    "texto": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/fernandamartins/"
+                },
+                {
+                    "icone": "./public/assets/images/icons/mail.png",
+                    "texto": "E-mail",
+                    "url": "mailto:fernanda@email.com"
+                },
+                {
+                    "icone": "./public/assets/images/icons/instagram.png",
+                    "texto": "Instagram",
+                    "url": "https://instagram.com/fernandamartins"
+                },
+                {
+                    "icone": "./public/assets/images/icons/message-square-text.png",
+                    "texto": "WhatsApp",
+                    "url": "https://wa.me/5599977776666"
+                },
+                {
+                    "icone": "./public/assets/images/icons/layout-template.png",
+                    "texto": "Portfolio",
+                    "url": "https://fernandamartins.com.br"
+                }
+            ],
+            "qrcode": "./public/assets/images/qrcode/image 6.png"
+        },
+        {
+            "id": "5",
+            "foto": "./public/assets/images/people/398fb6fa287d7de4c66c28698377e05976655124.png",
+            "nome": "Marcelo Santos",
+            "fundo": "linear-gradient(135deg, #e1f5fe 0%, #4fc3f7 100%)",
+            "corLink": "#4fc3f7",
+            "corLinkHover": "#03a9f4",
+            "corIcone": "#0277bd",
+            "corTextoLink": "#01579b",
+            "borderRadius": "5px",
+            "links": [
+                {
+                    "icone": "./public/assets/images/icons/linkedin.png",
+                    "texto": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/marcelosantos/"
+                },
+                {
+                    "icone": "./public/assets/images/icons/github.png",
+                    "texto": "GitHub",
+                    "url": "https://github.com/marcelosantos"
+                },
+                {
+                    "icone": "./public/assets/images/icons/mail.png",
+                    "texto": "E-mail",
+                    "url": "mailto:marcelo@email.com"
+                },
+                {
+                    "icone": "./public/assets/images/icons/twitter.png",
+                    "texto": "Twitter",
+                    "url": "https://twitter.com/marcelosantos"
+                },
+                {
+                    "icone": "./public/assets/images/icons/youtube.png",
+                    "texto": "Canal YouTube",
+                    "url": "https://youtube.com/marcelosantos"
+                }
+            ],
+            "qrcode": "./public/assets/images/qrcode/image 6.png"
         }
     ]
 }
