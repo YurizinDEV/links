@@ -4,11 +4,11 @@
             "id": "1",
             "foto": "./public/assets/images/people/eu.jpg",
             "nome": "Yuri Ribeiro Zetoles",
-            "fundo": "linear-gradient(135deg, #303030 0%, #121212 100%)",
-            "corLink": "#e0e0e0",
-            "corLinkHover": "#ffffff",
-            "corIcone": "#f5f5f5",
-            "corTextoLink": "#f5f5f5",
+            "fundo": "linear-gradient(180deg, #0f0f1c 0%, #101832 100%)",
+            "corLink": "#ffffff",
+            "corLinkHover": "#5be9a8",
+            "corIcone": "#3de292",
+            "corTextoLink": "#000000",
             "borderRadius": "10px",
             "links": [
                 {
@@ -32,13 +32,13 @@
         {
             "id": "2",
             "foto": "./public/assets/images/people/46f18447b2b86db1a00aaa19ea455b85760f3e06.png",
-            "nome": "Amanda Oliveira",
-            "fundo": "linear-gradient(135deg, #e0f7fa 0%, #80deea 100%)",
-            "corLink": "#80deea",
-            "corLinkHover": "#26c6da",
-            "corIcone": "#0097a7",
-            "corTextoLink": "#006064",
-            "borderRadius": "15px",
+            "nome": "Tereza Oliveira",
+            "fundo": " linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url('./assets/images/background/background1.jpg') center/cover no-repeat",
+            "corLink": "#4caf50",
+            "corLinkHover": "#2e7d32",
+            "corIcone": "#2e7d32",
+            "corTextoLink": "#000000",
+            "borderRadius": "10px",
             "links": [
                 {
                     "icone": "./public/assets/images/icons/linkedin.png",
@@ -71,13 +71,13 @@
         {
             "id": "3",
             "foto": "./public/assets/images/people/b09410ad020fdaacf16c7a6839d037e8101ebb25.png",
-            "nome": "Roberto Almeida",
-            "fundo": "url(./public/assets/images/background/pexels-pixabay-531767.jpg)",
-            "corLink": "#a5d6a7",
-            "corLinkHover": "#66bb6a",
-            "corIcone": "#2e7d32",
-            "corTextoLink": "#1b5e20",
-            "borderRadius": "8px",
+            "nome": "Marco Andrade",
+            "fundo": "linear-gradient(180deg, #ffcdd2 0%, #e57373 100%)",
+            "corLink": "#e57373",
+            "corLinkHover": "#d32f2f",
+            "corIcone": "#c62828",
+            "corTextoLink": "#000000",
+            "borderRadius": "10px",
             "links": [
                 {
                     "icone": "./public/assets/images/icons/linkedin.png",
@@ -110,13 +110,13 @@
         {
             "id": "4",
             "foto": "./public/assets/images/people/82b007f850f00d232befc01d9f1fa5b529e8f10a.png",
-            "nome": "Fernanda Martins",
-            "fundo": "#fff8e1",
-            "corLink": "#ffe082",
-            "corLinkHover": "#ffc107",
+            "nome": "José Silva",
+            "fundo": "linear-gradient(180deg, #fff8e1 0%, #ffd54f 100%)",
+            "corLink": "#ffd54f",
+            "corLinkHover": "#ffb300",
             "corIcone": "#ff8f00",
-            "corTextoLink": "#e65100",
-            "borderRadius": "25px",
+            "corTextoLink": "#000000",
+            "borderRadius": "32px",
             "links": [
                 {
                     "icone": "./public/assets/images/icons/linkedin.png",
@@ -149,13 +149,13 @@
         {
             "id": "5",
             "foto": "./public/assets/images/people/398fb6fa287d7de4c66c28698377e05976655124.png",
-            "nome": "Marcelo Santos",
-            "fundo": "linear-gradient(135deg, #e1f5fe 0%, #4fc3f7 100%)",
-            "corLink": "#4fc3f7",
-            "corLinkHover": "#03a9f4",
-            "corIcone": "#0277bd",
-            "corTextoLink": "#01579b",
-            "borderRadius": "5px",
+            "nome": "Eliana Silva",
+            "fundo": "linear-gradient(180deg, #f5f5f5 0%, #9e9e9e 100%)",
+            "corLink": "#9e9e9e",
+            "corLinkHover": "#616161",
+            "corIcone": "#424242",
+            "corTextoLink": "#000000",
+            "borderRadius": "4px",
             "links": [
                 {
                     "icone": "./public/assets/images/icons/linkedin.png",
@@ -181,6 +181,45 @@
                     "icone": "./public/assets/images/icons/youtube.png",
                     "texto": "Canal YouTube",
                     "url": "https://youtube.com/marcelosantos"
+                }
+            ],
+            "qrcode": "./public/assets/images/qrcode/image 6.png"
+        },
+        {
+            "id": "6",
+            "foto": "./public/assets/images/people/398fb6fa287d7de4c66c28698377e05976655124.png",
+            "nome": "Elena Silva",
+            "fundo": "linear-gradient(180deg, #e0f7f6 0%, #4db6ac 100%)",
+            "corLink": "#4db6ac",
+            "corLinkHover": "#00897b",
+            "corIcone": "#00796b",
+            "corTextoLink": "#000000",
+            "borderRadius": "32px",
+            "links": [
+                {
+                    "icone": "./public/assets/images/icons/linkedin.png",
+                    "texto": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/elenasilva/"
+                },
+                {
+                    "icone": "./public/assets/images/icons/github.png",
+                    "texto": "GitHub",
+                    "url": "https://github.com/elenasilva"
+                },
+                {
+                    "icone": "./public/assets/images/icons/mail.png",
+                    "texto": "E-mail",
+                    "url": "mailto:elena@email.com"
+                },
+                {
+                    "icone": "./public/assets/images/icons/twitter.png",
+                    "texto": "Twitter",
+                    "url": "https://twitter.com/elenasilva"
+                },
+                {
+                    "icone": "./public/assets/images/icons/youtube.png",
+                    "texto": "Canal YouTube",
+                    "url": "https://youtube.com/elenasilva"
                 }
             ],
             "qrcode": "./public/assets/images/qrcode/image 6.png"
