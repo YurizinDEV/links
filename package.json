@@ -8,7 +8,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "server": "json-server --watch dados.json",
-    "dev-full": "concurrently \"npm run dev\" \"npm run server\""
+    "start": "concurrently \"npm run dev\" \"npm run server\""
   },
   "dependencies": {
     "concurrently": "^8.2.2"
