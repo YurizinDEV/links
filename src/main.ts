@@ -23,7 +23,13 @@ interface Usuario {
 }
 
 const params = new URLSearchParams(window.location.search);
-const id = params.get('id') || '1';
+let id = params.get('id');
+
+if (!id) {
+    id = '1';
+    const newUrl = `${window.location.origin}${window.location.pathname}?id=${id}`;
+    window.history.replaceState(null, '', newUrl);
+}
 
 async function buscarDados(id: string) {
     const response = await fetch(`http://localhost:3000/usuarios/${id}`);
@@ -168,7 +174,7 @@ function isBackgroundLight(background: string): boolean {
 }
 
 async function inicializarPagina() {
-    const usuario = await buscarDados(id);
+    const usuario = await buscarDados(id!);
 
     const nome = document.getElementById('nome');
     if (nome) nome.textContent = usuario.nome;
